@@ -20,9 +20,3 @@ __pycache__/
 
 # File hệ thống
 .DS_Store
-
-# Keep demo employee images for Face Check-in
-!Face-Based_Employee_Check-in_System/data/
-!Face-Based_Employee_Check-in_System/data/raw/
-!Face-Based_Employee_Check-in_System/data/raw/Dataset/
-!Face-Based_Employee_Check-in_System/data/raw/Dataset/**
