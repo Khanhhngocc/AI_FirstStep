@@ -16,6 +16,7 @@ class GaussianNaiveBayes:
         self.priors_ = np.zeros(n_classes)
 
         for idx, k in enumerate(self.classes_):
+            print(idx, k)
             Xk = X[y == k]
 
             self.means_[idx] = Xk.mean(axis=0)

@@ -23,7 +23,7 @@ def gradien_descent(m_now, b_now, points, L):
         b_gradient += -(2/n) * (y - (m_now * x + b_now))
 
     m = m_now - m_gradient * L
-    b = b_now - b_gradient
+    b = b_now - b_gradient * L
 
 
 m = 0
